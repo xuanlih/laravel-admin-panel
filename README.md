@@ -3,20 +3,21 @@ Project setup instructions
 - its using herd as well for phpmyadmin
 
 1) Clone the repository:
-
+   
+```bash
 git clone https://github.com/your-repo-name.git
 cd your-repo-name
 
-2-Install Laravel dependencies:
+2) Install Laravel dependencies:
 
 composer install
 
-3-Set up environment file:
+3) Set up environment file:
 
 cp .env.example .env
 php artisan key:generate
 
-4-Configure database in .env:
+4) Configure database in .env:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -25,15 +26,15 @@ DB_DATABASE=your_db_name
 DB_USERNAME=your_db_user
 DB_PASSWORD=your_db_password
 
-5-Run migrations and seeders:
+5) Run migrations and seeders:
 
 php artisan migrate
 
-6-Serve the app:
+6) Serve the app:
 
 php artisan serve
 
-7-Tools Used:
+7) Tools Used:
 
 - Laravel 11.x
 - Herd (local dev environment)
