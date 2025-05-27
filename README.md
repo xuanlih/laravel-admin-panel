@@ -7,32 +7,43 @@ Project setup instructions
 ```bash
 git clone https://github.com/your-repo-name.git
 cd your-repo-name
+```
 
 2) Install Laravel dependencies:
 
+```bash
 composer install
+```
 
 3) Set up environment file:
 
+```bash
 cp .env.example .env
 php artisan key:generate
+```
 
 4) Configure database in .env:
 
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your_db_name
 DB_USERNAME=your_db_user
 DB_PASSWORD=your_db_password
+```
 
 5) Run migrations and seeders:
 
+```bash
 php artisan migrate
+```
 
 6) Serve the app:
 
+```bash
 php artisan serve
+```
 
 7) Tools Used:
 
