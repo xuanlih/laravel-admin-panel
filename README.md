@@ -2,7 +2,7 @@ Project setup instructions
 - may refer to install and configure laravel (https://laravel.com/docs/11.x)
 - its using herd as well for phpmyadmin
 
-1-Clone the repository:
+1) Clone the repository:
 
 git clone https://github.com/your-repo-name.git
 cd your-repo-name
